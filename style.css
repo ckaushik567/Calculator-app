@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgba(59, 70, 100, 1);
+}
+.heading{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color:rgba(255, 255, 255, 1);
+    margin-right: 358px;
+}
+.text-box input{
+    resize: none;
+    outline: none;
+    padding: 25px 11px ;
+    background-color:rgba(24, 31, 50, 1);
+    box-shadow: 0px 4px 4px 0px rgba(24, 31, 50, 1);
+    border-radius: 6px;
+    border: 1px solid rgba(24, 31, 50, 1);
+    color: white;
+    font-size: 30px;
+    text-align: end;
+    caret-color: transparent;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    caret-color: transparent;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.button-conatiner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 17px;
+    margin-top: 30px;
+    background-color:rgba(37, 45, 68, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 35px 25px;
+}
+#restbtn{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color:rgba(100, 114, 153, 1);
+    color:rgba(255, 255, 255, 1);
+}
+#eqlbtn{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color:rgba(209, 63, 48, 1);
+    color:rgba(255, 255, 255, 1);
+}
+#delbtn{
+    background-color:rgba(100, 114, 153, 1);
+    color:rgba(255, 255, 255, 1);
+}
+button{
+    padding: 10px 18px;
+    text-align: center;
+    background-color:rgba(234, 227, 219, 1);
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    color:rgba(59, 70, 100, 1);
+    font-size: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
