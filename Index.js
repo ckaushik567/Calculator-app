@@ -23,8 +23,8 @@ function solveFunc() {
         alert("Invalid Input!");
     }
     else {
-            textArea.value = String(textArea.value).replace("x","*");
-            textArea.value = eval(String(textArea.value));
+        textArea.value = String(textArea.value).replace("x", "*");
+        textArea.value =  parseFloat(eval(String(textArea.value)).toFixed(3));
     }
 };
 function delFunc(e) {
